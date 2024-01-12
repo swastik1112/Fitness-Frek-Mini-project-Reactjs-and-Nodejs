@@ -1,0 +1,361 @@
+body {
+  width: 100%;
+  background-repeat: no-repeat;
+  font-family: "Montserrat", sans-serif;
+  color: white;
+  margin: 0px;
+  padding: 0px;
+  /* background: url("cbum.jpg"); */
+}
+body
+{
+    background-image: url("./images/cbum.jpg");
+    background-size: cover;
+
+}
+
+/* .header {
+    background: url('images/AS.jpg');
+    margin-top: 0px;
+} */
+
+.left {
+  position: absolute;
+  left: 34px;
+  top: 20px;
+  /* border: 2px solid red; */
+  display: inline-block;
+}
+
+.left img {
+  width: 100px;
+}
+
+.left div {
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+}
+
+.center {
+  /* border: 2px solid white; */
+  display: block;
+  width: 50%;
+  margin: 20px auto;
+}
+
+.navbar {
+  display: inline-block;
+  background-color: black;
+}
+
+.navbar li {
+  display: inline-block;
+  font-size: 18px;
+}
+
+.navbar li a {
+  color: bisque;
+  text-decoration: none;
+  padding: 10px 10px;
+}
+
+.navbar li a:hover,
+.navbar li a:active {
+  text-decoration: underline;
+  color: rgb(252, 66, 4);
+}
+
+.right {
+  position: absolute;
+  right: 34px;
+  top: 20px;
+  size: 5px;
+
+  /* border: 2px solid blue; */
+  display: inline-block;
+}
+
+.btn {
+  font-family: "Montserrat", sans-serif;
+  margin: 0px 18px;
+  color: white;
+  background-color: black;
+  /* border: 2px solid grey; */
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: rgb(53, 47, 47);
+}
+
+.container {
+  /* border: 2px solid white; */
+  position: absolute;
+  right: 25px;
+  top: 120px;
+  margin-top: 53px;
+  /* border: 2px solid blue; */
+  display: inline-block;
+  /* margin: 108px 25px;
+padding: 75px;
+width: 250px;
+border-radius: 28px; */
+}
+
+.container h4 {
+  background-color: bisque;
+  text-align: center;
+  color: rgb(16, 1, 1);
+}
+
+.container button {
+  display: block;
+  width: 119px;
+  margin: auto;
+  background-color: aliceblue;
+  color: black;
+}
+
+.container button:hover {
+  background-color: rgb(114, 186, 248);
+}
+
+.form-group input {
+  font-family: "Montserrat", sans-serif;
+  font-size: 15px;
+  text-align: center;
+  display: block;
+  width: 230px;
+  margin: 10px;
+  padding: 4px;
+  /* border: 1px solid black; */
+  border-radius: 23px;
+}
+
+.form-group input:focus {
+  background-color: rgb(245, 245, 192);
+}
+
+/* @import url("https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600&display=swap"); */
+
+
+* {
+  font-family: 'Nunito', sans-serif;
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  text-decoration: none;
+  outline: none;
+  border: none;
+  text-transform: capitalize;
+  -webkit-transition: all .2s linear;
+  transition: all .2s linear;
+  /* background: url("src\img\cbum.jpg"); */
+}
+.container-fluid{
+  height: 50px;
+  font-size: medium;
+}
+.container-fluid .navbar-brand{
+  font-size: larger;
+  
+}
+.carousel-inner .carousel-item .carousel-caption {
+  font-size: large;
+}
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+  scroll-padding-top: 5rem;
+  overflow-x: hidden;
+}
+
+
+
+
+
+section {
+  padding: 5rem 9%;
+}
+
+
+
+
+.btn {
+  /* margin-top: 2rem; */
+  /* display: inline-block; */
+  padding: 0.5rem 0.5rem;
+  padding-right: 1rem;
+  background: linear-gradient(130deg, #f00 93%, transparent 100%);
+  color: #fff;
+  cursor: pointer;
+  font-size: 1.7rem;
+}
+
+
+
+.footer{
+    background-color: #000;
+    font-size: 62.5%;
+    margin-top: 1100px;
+}
+
+.footer .box-container {
+    font-size: 62.5%;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (minmax(25rem, 1fr))[auto-fit];
+      grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+  gap: 1.5rem;
+}
+
+.footer .box-container .box h3 {
+  font-size: 2.2rem;
+  color: #fff;
+  padding: 1rem 0;
+}
+
+.footer .box-container .box .links {
+  font-size: 1.5rem;
+  display: block;
+  color: #aaa;
+  padding: 1rem 0;
+}
+
+.footer .box-container .box .links:hover {
+  color: #f00;
+}
+
+.footer .box-container .box p {
+  font-size: 1.5rem;
+  color: #aaa;
+  padding: 1rem 0;
+}
+
+.footer .box-container .box p i {
+  padding-right: .5rem;
+  color: #f00;
+}
+
+.footer .box-container .box .share {
+  padding: 1rem 0;
+}
+
+.footer .box-container .box .share a {
+  height: 4.5rem;
+  width: 4.5rem;
+  line-height: 4.5rem;
+  font-size: 1.7rem;
+  color: #fff;
+  background: #111;
+  border-radius: 50%;
+  margin-right: .5rem;
+  text-align: center;
+}
+
+.footer .box-container .box .share a:hover {
+  background: #f00;
+}
+
+.footer .box-container .box form .email {
+  margin-bottom: 1rem;
+  width: 100%;
+  background: #111;
+  padding: 1.2rem;
+  font-size: 1.5rem;
+  color: #fff;
+  text-transform: none;
+}
+
+
+.credit {
+  font-size: 2rem;
+  text-align: center;
+  padding: 2rem;
+  color: #fff;
+  background: #111;
+  line-height: 1.5;
+}
+
+.credit span {
+  color: #f00;
+}
+
+@media (max-width: 991px) {
+  html {
+    font-size: 55%;
+    scroll-padding: 7rem;
+  }
+  .header {
+    padding: 0 2rem;
+  }
+  section {
+    padding: 3rem 2rem;
+  }
+  .home .slide {
+    padding: 2rem 5%;
+  }
+  .home .slide .content {
+    width: 50rem;
+  }
+  .home .slide .content h3 {
+    font-size: 4rem;
+  }
+}
+
+@media (max-width: 768px) {
+  #menu-btn {
+    display: inline-block;
+  }
+  #menu-btn.fa-times {
+    -webkit-transform: rotate(180deg);
+            transform: rotate(180deg);
+  }
+  .header {
+    padding: 2rem;
+  }
+  .header .navbar {
+    position: absolute;
+    top: 99%;
+    left: 0;
+    right: 0;
+    background: #000;
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+            clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+  }
+  .header .navbar.active {
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+            clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+  }
+  .header .navbar a {
+    display: block;
+    font-size: 2rem;
+  }
+  .about {
+    gap: 3rem;
+  }
+  .about .image {
+    margin-top: 5rem;
+  }
+  .about .content .title {
+    font-size: 3rem;
+  }
+  .features .box-container .box.second {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column;
+            flex-flow: column;
+  }
+}
+
+@media (max-width: 450px) {
+  html {
+    font-size: 50%;
+  }
+}
+
+
+
